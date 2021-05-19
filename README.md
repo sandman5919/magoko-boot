@@ -1,4 +1,4 @@
-# MagOKO Boot
+# MagOKO Boot [![Build](https://github.com/deepinthink-magoko/magoko-boot/actions/workflows/maven.yml/badge.svg)](https://github.com/deepinthink-magoko/magoko-boot/actions/workflows/maven.yml)
 DEEPINTHINK MagOKO Boot framework implementation.
 
 ## License
