@@ -43,5 +43,7 @@
   <modules>
     <module>magoko-boot-bom</module>
     <module>magoko-boot-build-parent</module>
+    <module>magoko-boot-core</module>
+    <module>magoko-starter-boot</module>
   </modules>
 </project>
