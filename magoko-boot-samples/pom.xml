@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+     https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.deepinthink.magoko</groupId>
+    <artifactId>magoko-boot-build-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <relativePath>../magoko-boot-build-parent/pom.xml</relativePath>
+  </parent>
+  <artifactId>magoko-boot-samples</artifactId>
+  <packaging>pom</packaging>
+  <name>magoko-boot-samples</name>
+  <description>MagOKO Boot :: Samples</description>
+  <properties>
+    <parameter.license-header.location>
+      ${basedir}/../../magoko-boot-build-parent/src/license-header.txt
+    </parameter.license-header.location>
+  </properties>
+  <modules>
+    <module>magoko-boot-sample-msocket</module>
+  </modules>
+</project>
